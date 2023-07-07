@@ -84,7 +84,7 @@ header {
   margin-bottom: 90px;
 }
 
-.box1 {
+.portfolio-box1 {
   background-image: url(img/talk.jpg);
   background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
   background-position: center; /* 背景画像を中央に配置 */
@@ -93,7 +93,8 @@ header {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.box2 {
+
+.portfolio-box2 {
   background-image: url(img/websuku.png);
   background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
   background-position: center; /* 背景画像を中央に配置 */
@@ -102,7 +103,8 @@ header {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.box3 {
+
+.portfolio-box3 {
   background-image: url(img/write.jpg);
   background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
   background-position: center; /* 背景画像を中央に配置 */
@@ -110,7 +112,8 @@ header {
   height: 250px;
   margin-bottom: 10px;
 }
-.box4 {
+
+.portfolio-box4 {
   background-image: url(img/webcamp.png);
   background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
   background-position: center; /* 背景画像を中央に配置 */
@@ -118,7 +121,8 @@ header {
   height: 250px;
   margin-right: 10px;
 }
-.box5 {
+
+.portfolio-box5 {
   background-image: url(img/talk.jpg);
   background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
   background-position: center; /* 背景画像を中央に配置 */
@@ -126,7 +130,8 @@ header {
   height: 250px;
   margin-right: 10px;
 }
-.box6 {
+
+.portfolio-box6 {
   background-image: url(img/webcamp-mother.png);
   background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
   background-position: center; /* 背景画像を中央に配置 */
@@ -134,8 +139,217 @@ header {
   height: 250px;
 }
 
+.main2 {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature{
+  width: 980px;
+}
+
+.feature h1 {
+  font-size: 32px;
+  color: #000;
+  margin-top: 90px;
+  text-align: center; /* 文字を中央揃えにする */
+}
+
+.feature p {
+  font-size: 16px;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center; /* 文字を中央揃えにする */
+}
+
+.feature-content {
+  max-width: 980px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.feature-box1 {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-box1 i {
+  font-size: 60px;
+}
+
+.feature-box1 p {
+  font-size: 16px;
+  color: #000;
+}
 
 
+.feature-box2 {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-box2 i {
+  font-size: 60px;
+}
+
+.feature-box2 p {
+  font-size: 16px;
+  color: #000;
+}
+
+
+.feature-box3 {
+  width: 320px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-box3 p {
+  font-size: 16px;
+  color: #000;
+}
+
+.feature-box3 i {
+  font-size: 60px;
+}
+
+.main3 {
+  height: 100%;
+  background-color: #ECEFF1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile {
+  width: 1024px;
+}
+
+.profile h1 {
+  font-size: 32px;
+  color: #000;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.profile p {
+  font-size: 16px;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.profile-content {
+  margin-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile-image-box {
+  width: 512px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile-image {
+  background-image: url(img/my-icon.jpg);
+  height: 250px;
+  width: 250px;
+  /* 要素の形を正円にする */
+  border-radius: 50%;
+}
+
+.profile-text {
+  width: 512px;
+}
+
+.profile-text h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: start;
+}
+
+.profile-text p {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-align: start;
+}
+
+.main4 {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact {
+  width: 800px;
+}
+
+.contact h1 {
+  font-size: 32px;
+  color: #000;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 16px;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact-content {
+  margin-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-box {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-box h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-box p {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.contact-box i {
+  font-size: 50px;
+  margin-right: 20px;
+}
 
 footer {
   height: 60px;
