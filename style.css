@@ -83,6 +83,7 @@ nav {
   font-size: 32px;
   color: #000;
   margin-top: 90px;
+  margin-bottom: 30px;
   text-align: center; /* 文字を中央揃えにする */
 }
 
@@ -410,5 +411,79 @@ footer {
     font-size: 18px;
   }
 
+  .portfolio {
+    width: 90%;
+  }
+
+  .portfolio-content {
+    width: 45%;
+    margin: auto;
+    display: block;
+    margin-bottom: 90px;
+  }
+
+  .portfolio-box1 {
+    display: none;
+  }
+
+  .portfolio-box3 {
+    display: none;
+  }
+  .portfolio-box5 {
+    display: none;
+  }
+
+  .feature {
+    width: 90%;
+  }
+
+  .feature-content {
+    width: 45%;
+    margin: auto;
+    display: block;
+    margin-bottom: 90px;
+  }
+
+  .profile {
+    width: 90%
+  }
+
+  .profile-text h4 {
+    text-align: center;
+  }
+
+  .profile-text p {
+    text-align: center;
+  }
+
+  .contact {
+    width: 90%;
+    margin-bottom: 90px;
+  }
+
+  .contact-content {
+    width: 45%;
+    margin: auto;
+    display: block;
+  }
+
+  .contact-box {
+    width: 45%;
+    margin: auto;
+    display: block;
+  }
+
+  .contact-box1 h4 {
+    text-align: center;
+  }
+
+  .contact-box1 p {
+    text-align: center;
+  }
+
+  .contact-box1 i {
+    margin-right: 0px;
+    text-align: center;
+  }
 
 }
